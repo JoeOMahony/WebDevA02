@@ -20,8 +20,8 @@ a:hover { text-decoration: none; }
 #page { width: 952px; margin: 0 auto; padding: 0 10px; }
 
 h1, h2, h3, h4, h5, h6 {
+	color: darkgreen;
 	font-family: "Trebuchet MS", Tahoma, Arial, Sans-Serif;
-	color: #2b2b2b;
 	font-weight: normal;
 }
 h1 { font-size: 23px; }
@@ -121,13 +121,13 @@ div.desc {
 }
 
 .contact-form-container {
+	max-width: 600px;
   background-color: #f9f9f9; 
   padding: 20px;
   border-radius: 8px; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px; 
   width: 90%; 
-  max-width: 475px; 
   margin-left: 0em; 
   margin-right: auto;
 }
