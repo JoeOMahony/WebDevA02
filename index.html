@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TSG Home</title>
+	<meta name="description" content="Explore Tramore Square Gardens' portfolio showcasing the beauty and community-driven nature of our gardens. From serene landscapes to vibrant seasonal blooms, discover the vision behind our space." />
+<meta name="keywords" content="Tramore Square Gardens, portfolio, garden design, green spaces, community activities, local flora, seasonal blooms, nature, outdoor events" />
+<meta name="author" content="Tramore Square Gardens" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css" />
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]><link rel="stylesheet" href="css/ie6-style.css" type="text/css" media="all" /><![endif]-->
+<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- Page -->
+<div id="page">
+  <!-- Header -->
+  <div id="header">
+    <!-- Navigation -->
+    <div id="navigation">
+      <ul>
+        <li class="active"><a href="index.html">home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="plants.html">Plants</a></li>
+        <li class="last"><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+
+    <h1><a href="index.html"><img src="tsg.webp" height="50px" width="125px" alt="ff"></a></h1>
+	  <div style="padding-top: 0.5em;" class="description"><p style="color: darkgreen; font-family: 'Roboto', 'Helvetica Neue', 'Arial', sans-serif; font-weight: 300; letter-spacing: 1px; text-transform: uppercase;">Tramore Square Gardens</p></div>
+  </div>
+  <!-- / Header -->
+  <!-- Slideshow -->
+  <div id="slideshow">
+    <div class="bg">
+      <div class="cnt">
+        <!-- Big Image -->
+        <div class="big-image"> <img src="css/images/img1.jpg" alt="Tramore Square Gardens Homepage" /> </div>
+        <!-- / Big Image -->
+        <!-- Slider -->
+		  
+        <!-- / Slider -->
+      </div>
+    </div>
+    <label for="datetime-local">&nbsp;</label>
+</div>
+  <!-- / Slideshow -->
+  <!-- Content -->
+  <div id="content">
+    <div class="cl">&nbsp;</div>
+    <div class="left-col separator">
+<h2>🌹 Welcome</h2>
+      <p>Nestled in the heart of Tramore, <em>Tramore Square Gardens</em> offers a serene escape amidst the bustling town. This charming space is thoughtfully designed to blend natural beauty with a sense of community, creating a haven where residents and visitors alike can unwind, connect, and enjoy the outdoors. The gardens are a celebration of local flora, carefully curated to highlight seasonal blooms and native plant species, bringing a touch of natural splendour to every corner.&nbsp;</p>
+      <p><em>Tramore Square Gardens</em> is more than just a green space; it’s a hub for community activities and events. From weekend markets to outdoor concerts, the gardens regularly host events that bring people together. Its welcoming pathways, tranquil seating areas, and open lawns make it an ideal spot for everything from casual picnics to lively gatherings, all within a setting that’s both vibrant and peaceful. Whether you’re looking for a quiet moment surrounded by nature, a picturesque spot for photos, or a place to catch up with friends, <em>Tramore Square Gardens</em> has something for everyone. With its blend of beauty, accessibility, and community spirit, it stands as a testament to the importance of shared public spaces in enriching daily life.</p>
+      <div id="fun-facts" style="margin: 30px auto; padding: 20px; background-color: #f9f9f9; border-radius: 8px; text-align: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+    <h2 style="color: darkgreen; margin-bottom: 20px;">🐝 Did You Know?</h2>
+    <div id="fact-display" style="font-size: 18px; color: darkgreen; font-style: italic;">Tramore Square Gardens is home to over 50 species of native plants.</div>
+    <button id="next-fact" style="margin-top: 20px; padding: 10px 20px; font-size: 16px; color: white; background-color: darkgreen; border: none; border-radius: 5px; cursor: pointer;">Next Fact</button>
+</div>
+
+<script>
+    const facts = [
+        "Tramore Square Gardens is home to over 50 species of native plants.",
+        "Spending 20 minutes in nature can lower stress hormone levels.",
+        "The gardens host over 20 community events every year.",
+        "Butterflies found here include the Peacock and Red Admiral species.",
+        "Walking in green spaces improves focus and boosts creativity."
+    ];
+
+    let factIndex = 0;
+
+    document.getElementById('next-fact').addEventListener('click', function() {
+        factIndex = (factIndex + 1) % facts.length;
+        document.getElementById('fact-display').innerText = facts[factIndex];
+    });
+</script>
+    </div>
+    <div class="right-col">
+      <h2>🌅 The Benefits of Nature</h2>
+      <p>Spending time in nature offers numerous physical and mental health benefits. It reduces stress, boosts mood, and enhances overall well-being by promoting relaxation and mindfulness. The natural environment also encourages physical activity, improves air quality, and helps to restore focus, making it a powerful tool for improving both body and mind.</p>
+      <label for="email">Join our Email list:</label>
+      <input type="email" name="email" id="email" />
+      <input type="submit" name="submit" id="submit" value="Submit" />
+      <h2>&nbsp;</h2>
+      <h2>This Month's Featured Partner's Gardens &nbsp;</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/84q7YcrOa_0?si=QsgE0Lk-k8NW0_Om" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="cl">&nbsp;Nestled in the heart of Tramore, Tramore Square Gardens offers a serene escape amidst the bustling town. This charming space is thoughtfully designed to blend natural beauty with a sense of community, creating a haven where residents and visitors alike can unwind, connect, and enjoy the outdoors. The gardens are a celebration of local flora, carefully curated to highlight seasonal blooms and native plant species, bringing a touch of natural splendour to every corner. Tramore Square Gardens is more than just a green space; it’s a hub for community activities and events. From weekend markets to outdoor concerts, the gardens regularly host events that bring people together. Its welcoming pathways, tranquil seating areas, and open lawns make it an ideal spot for everything from casual picnics to lively gatherings, all within a setting that’s both vibrant and peaceful. Whether you’re looking for a quiet moment surrounded by nature, a picturesque spot for photos, or a place to catch up with friends, Tramore Square Gardens has something for everyone. With its blend of beauty, accessibility, and community spirit, it stands as a testament to the importance of shared public spaces in enriching daily life.Nestled in the heart of Tramore, Tramore Square Gardens offers a serene escape amidst the bustling town. This charming space is thoughtfully designed to blend natural beauty with a sense of community, creating a haven where residents and visitors alike can unwind, connect, and enjoy the outdoors. The gardens are a celebration of local flora, carefully curated to highlight seasonal blooms and native plant species, bringing a touch of natural splendour to every corner. Tramore Square Gardens is more than just a green space; it’s a hub for community activities and events. From weekend markets to outdoor concerts, the gardens regularly host events that bring people together. Its welcoming pathways, tranquil seating areas, and open lawns make it an ideal spot for everything from casual picnics to lively gatherings, all within a setting that’s both vibrant and peaceful. Whether you’re looking for a quiet moment surrounded by nature, a picturesque spot for photos, or a place to catch up with friends, Tramore Square Gardens has something for everyone. With its blend of beauty, accessibility, and community spirit, it stands as a testament to the importance of shared public spaces in enriching daily life.</div>
+<div>  </div>
+</div>
+  <!-- / Content -->
+  <!-- Footer -->
+  <div id="footer">
+    <p>&copy; 2024 Tramore Square Gardens. No Rights Reserved. Code snippets used from <a href="https://www.w3schools.com">W3Schools.</a> Text blocks procedurally-generated, then edited.&nbsp; &nbsp;</p>
+  </div>
+  <!-- / Footer -->
+</div>
+<!-- / Page --> 
+</body>
+</html>
