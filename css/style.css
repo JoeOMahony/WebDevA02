@@ -126,8 +126,8 @@ div.desc {
   border-radius: 8px; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px; 
-  width: 90%; /* Adjust the width of the box */
-  max-width: 475px; /* Limits the max width of the box */
+  width: 90%; 
+  max-width: 475px; 
   margin-left: 0em; 
   margin-right: auto;
 }
